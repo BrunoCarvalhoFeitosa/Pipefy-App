@@ -1,68 +1,108 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/BrunoCarvalhoFeitosa/moveit">
+    <img src="https://user-images.githubusercontent.com/46093815/133951764-d78736f1-a031-459c-a9b2-891009922eb9.png" alt="Logo" />
+  </a>
 
-## Available Scripts
+  <p align="center">
+    Clone simples da interface do app Pipefy que é uma plataforma de gerenciamento de projetos e automação de fluxos de trabalho, baseado no modelo SaaS, criada em 2015 na cidade de Curitiba, PR, tendo sua sede estabelecida na cidade de San Francisco, CA, por Alessio Alionço, que já estava frustrado com os sistemas existentes para gerenciamento de projetos.
+  </p>
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#feito-com">Feito com</a></li>
+        <li><a href="#hospedagem">Hospedagem</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#iniciando-o-projeto">Iniciando o projeto</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#uso">Uso</a></li>
+    <li><a href="#license">Licenças</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#reconhecimentos">Reconhecimentos</a></li>
+  </ol>
+</details>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ABOUT THE PROJECT -->
+## Sobre o projeto
 
-### `yarn build`
+![pipefyScreen](https://user-images.githubusercontent.com/46093815/133951883-e4af7bff-1dd3-4308-8de5-cc4e859fc1e8.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este app foi feito em React.js e sua funcionalidade é baseada no gerenciamento de tarefas semelhante ao Kanban, no momento não possui tantas interações somente uma função para drag and drop para fetuar a organização de tarefas que estão sendo feitas, pausadas ou foram finalizadas.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Feito com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [React.js](https://pt-br.reactjs.org/)
+* [Styled-components](https://styled-components.com/)
 
-### `yarn eject`
+### Hospedagem
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O app ainda não foi hospedado em nenhuma plataforma, porém você poderá cloná-lo. Basta acompoanhar o próximo tópico.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- GETTING STARTED -->
+## Iniciando o projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Primeiramente será necessário clonar este projeto em (https://github.com/BrunoCarvalhoFeitosa/Pipefy-App.git), após o download será necessário abrir este projeto no seu
+editor e no terminal digitar npm install ou yarn install, posteriormente é só executar o script yarn start ou npm run start. 
 
-## Learn More
+### Pré-requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Instalação
 
-### Code Splitting
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/BrunoCarvalhoFeitosa/Pipefy-App.git
+   ```
+2. Instale os pacotes do NPM
+   ```sh
+   npm install ou yarn install
+   ```
+   
+3. Inicie o projeto
+   ```sh
+   npm run start ou yarn start
+   ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+<!-- USAGE EXAMPLES -->
+## Uso
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Gerenciamento simples em drag and drop de tarefas que estão sendo feitas, que estão pausadas ou que já foram entregues.
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<!-- LICENSE -->
+## License
 
-### Advanced Configuration
+Distribuído sob a licença MIT.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<!-- CONTACT -->
+## Contato
 
-### Deployment
+Bruno Carvalho Feitosa - [GitHub](https://github.com/BrunoCarvalhoFeitosa) - [LinkedIn](https://www.linkedin.com/in/bruno-carvalho-feitosa/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- ACKNOWLEDGEMENTS -->
+## Reconhecimentos
+* [Rocketseat](https://rocketseat.com.br/)
