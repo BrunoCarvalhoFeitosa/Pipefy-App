@@ -53,7 +53,7 @@ Este app foi feito em React.js e sua funcionalidade é baseada no gerenciamento 
 
 ### Hospedagem
 
-O app ainda não foi hospedado em nenhuma plataforma, porém você poderá cloná-lo. Basta acompoanhar o próximo tópico.
+O app ainda não foi hospedado em nenhuma plataforma, porém você poderá cloná-lo. Basta acompanhar o próximo tópico.
 
 
 <!-- GETTING STARTED -->
